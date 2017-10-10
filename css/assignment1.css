@@ -1,0 +1,90 @@
+/* reset starts here */
+* {margin:0; padding:0;}
+a {text-decoration:none;}
+li {list-style-type:none;}
+/* end here */
+
+/* generic starts here */
+.fl {float:left;}
+.fr {float:right;}
+.clr {clear:both;}
+.oh {overflow:hidden;}
+.hide {display:none;}
+.show {display:block;}
+/* generic starts here */
+
+
+a {color:black;}
+body {overflow: hidden;background-color:#fff; font-family:"Arial"; font-size:13px;}
+
+header {background-color:#F1C40F; border-bottom:1px solid #bbb; padding-top:10px;}
+header .wrapper{height: 20px;}
+header .wrapper .headTitle {margin:-10px 0px;text-align:center;}
+header .wrapper ul {float:right;margin:-8px 0px;padding: 0;}
+header .wrapper ul li {list-style-type:none; float:left;}
+
+.wrapper {/*width:1020px; margin:auto auto 20px auto;*/}
+.wrapper .menu {float:left;}
+.wrapper .menu #nav{width:1226px;float:left;height:25px;color:#000;border-bottom:1px solid #333;background:white;}
+.wrapper .menu #nav li {padding-top: 5px;height:25px;float:left; width:80px;text-align:center;}
+.wrapper .menu #nav > li:hover {background-color: #DCDCDC;}
+.wrapper .menu .question{float:right;height: 25px;width:60px;background-color: white;border-bottom: 1px solid #000;}
+
+.head{overflow:hidden;width:100%;background-color:#bbb;}
+.wrapper .head .logo{float:left;}
+.wrapper .head .logo img{width:100px;height:80px;}
+.wrapper .head .search{float:right;background-color:red;position:relative;top:20px;width:280px;}
+.wrapper .head .search input{margin:1px 2px 3px 1px;}
+.wrapper .head .search img{position:relative;top:5px;width:20px;height:20px;}
+
+.wrapper .searchSection {background-color:white;}
+.wrapper .searchSection .arrows{margin-top:7px;float:left;}
+.wrapper .searchSection #taskbar {background-color: white;margin-top: 6px;border: 1px solid #ddd;float: left;width: 76.5%; height: 18px;}
+.wrapper .searchSection #taskbar ul {}
+.wrapper .searchSection #taskbar li {float:left;padding:0px 2px;}
+.wrapper .searchSection .searchBar {margin-top: 6px;width:195px;}
+.wrapper .searchSection .searchBar input {float:left;}
+.wrapper .searchSection .searchBar img{width: 21px;float: right;}
+.wrapper li{float:left;}
+.wrapper .non-expand {float:left;width:200px;border-right:1px solid #C0C0C0;height:550px;overflow-y:scroll;overflow-x:scroll;}
+.wrapper .non-expand #leftPanelMenu li{float:left;padding:0px 2px;}
+.wrapper .non-expand #leftPanelMenu .first{float:left;}
+.wrapper .non-expand #leftPanelMenu .first li{float:left;padding:0px 2px;}
+.wrapper .non-expand #leftPanelMenu .second{margin-left:23px;}
+.wrapper .non-expand #leftPanelMenu .second li ul {float:left;}
+.wrapper .non-expand #leftPanelMenu .second li ul li{float:left;}
+.wrapper .tree {float:left;}
+.wrapper .tree #leftPanelMenu li {float:left;padding:0px 2px;}
+.wrapper .tree #leftPanelMenu .first {float:left;}
+.tree #leftPanelMenu .first li {float:left;padding:0px 2px;}
+.wrapper .tree #leftPanelMenu .second{margin-left:23px;}
+.wrapper .tree #leftPanelMenu .second li ul {float:left;}
+.wrapper .tree #leftPanelMenu .second li ul li{float:left;}
+.tree li ul {float:left;}
+.tree .childul{margin-left:25px;}
+.tree > ul > li > ul > img {color: #3B4C56;display: block;font-weight: normal;position: relative;text-decoration: none;}
+.tree ul li.parent > a {padding: 0 0 0 28px;}
+.tree ul li.active > img:before {background-position: 0 center;}
+.tree ul li>ul{border-left: 1px solid #D9DADB;display: none;margin: 0 0 0 12px;overflow: hidden;padding: 0 0 0 25px;}
+
+.tree ul li ul li:second {position: relative;}
+.tree ul li ul li:before {border-bottom: 1px dashed #E2E2E3;content: "";left: -20px;position: absolute;top: 12px;width: 200px;}
+.wrapper .stickyMenu {background-color:#DCDCDC;position:absolute;width:100%;}
+.wrapper .stickyMenu li{float:left;}
+table {font-family: arial, sans-serif;font-size:12px;border-spacing: 10px;
+    border-collapse: separate;width:500px;}
+th {border-right: 1px solid #C0C0C0;}
+th,td{text-align:center;padding:3px;}
+
+.focus {background-color:#D3D3D3;color: #A9A9A9;cursor: pointer;font-weight: bold;}
+.selected {background-color:#D3D3D3;color: #A9A9A9;font-weight: bold;}
+.asc:after {  content: "\25B2"; }
+.desc:after { content: "\25BC"; }
+.wrapper .rightFrame #gridView ul li {width:100px;}
+.wrapper .rightFrame #gridView ul li ul li {width:100px;}
+.wrapper .rightFrame #gridView ul > li > ul {padding-left:30px;padding-right:30px;padding-top:20px;}
+.split-list ul{float: left;margin-left: 1em;}
+.split-list li{padding-right: 2em;line-height: 1.5em;@include font-size(12px);}
+footer{text-align:center;color:#000;width:100%;height:50px;background-color:#bbb;border-top:1px solid #bbb;}
+
+footer #footerTextCp{}

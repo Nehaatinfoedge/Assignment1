@@ -1,0 +1,571 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/assignment1.css">
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript" ></script>
+		<script src="js/assignment1.js" type="text/javascript" ></script>
+		<script type="text/javascript"> 
+		</script>
+	</head>
+	<body>
+		<header>
+	   	<div class="wrapper">
+	   			<div class="headTitle">
+					<a href="#">Windows</a>
+				</div>				<ul>
+					<li style="padding-top: 2px;">
+						<a href="">
+							<img src="images/minus.png" height="20px" width="20px;"></img>
+						</a>
+					</li>
+					<li style="padding-top: 4px;">
+						<a href="">
+							<img src="images/maximize.png"></img>
+						</a>
+					</li>
+					<li style="padding-top: 2px;">
+						<a href="">
+							<img src="images/cross.png"></img>
+						</a>
+					</li>
+				</ul>
+		  </div>
+		</header>
+		<div class="wrapper">
+			<div class="menu">
+				<ul id="nav" class="oh">
+					<li style="background-color:#4682B4;">
+						<a>File</a>
+					</li>
+					<li>
+						<a>Home</a>
+					</li>
+					<li>
+						<a>Share</a>
+					</li>
+					<li id="viewTab">
+						View
+					</li>
+				</ul>
+				<div class="question">
+					<a href="#">
+						<img src="images/question.png"></img>
+					</a>
+				</div>
+			</div>
+			<div class="clr"></div>
+			<div class="wrapper">
+				<div class="stickyMenu hide">
+					<ul class="oh">
+						<li style="padding-top: 7px;border-right:1px solid #C0C0C0;">
+							<ul>
+								<li>
+									<ul class="oh" style="width:65px;padding-left:10px;">
+										<li>
+											<img style="padding-left: 12px;" src="images/img1-sticky.png"></img>
+										</li>
+										<li>
+											Navigation
+											<br/>
+											<ul class="oh fl">
+												<li style="padding-left:9px;">
+													Pane
+												</li>
+												<li>
+													<img style="background-color:#DCDCDC;" src="images/img24-sticky.png"></img>
+												</li>
+											</ul>
+										</li>
+									</ul>
+									<span style="float:left;overflow: hidden;width: 100%;text-align: center;">
+										<font color=#C0C0C0>Panes</font>
+									</span>
+								</li>
+								<li>
+									<ul class="oh" style="width:130px;padding-left:3px;padding-top:10px;">
+										<li>
+											<ul class="oh fl">
+												
+												<li>
+													<img style="padding-left: 12px;" src="images/img2-sticky.png"></img>
+												</li>		
+												<li style="padding-left:7px;">
+													Preview Pane
+												</li>
+											</ul>
+											
+										</li>
+										<li>
+											<ul class="oh fl">
+												
+												<li>
+													<img style="padding-left: 12px;" src="images/img3-sticky.png"></img>
+												</li>		
+												<li style="padding-left:7px;">
+													Details Pane
+												</li>
+											</ul>
+											
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li style="padding-top: 7px;padding-left:2px;padding-right:2px; border-right:1px solid #C0C0C0;">
+							<ul class="oh" style="border:1px solid #A9A9A9;background-color:white;">
+								<li>
+									<ul class="oh" style="width:140px;">
+										<li>
+											<ul class="oh fl">
+												<li>
+													<img style="padding-left: 12px;" src="images/img4-sticky.png"></img>
+												</li>
+												<li>
+													Extra large icons
+												</li>
+											</ul>
+										</li>
+										<li>
+											<ul class="oh fl">
+												<li>
+													<img style="padding-left: 12px;" src="images/img5-sticky.png"></img>
+												</li>
+												<li>
+													Small Icons
+												</li>
+											</ul>
+										</li>
+										<li>
+											<ul class="oh fl">
+												<li>
+													<img style="padding-left: 12px;" src="images/img6-sticky.png"></img>
+												</li>
+												<li>
+													Tiles
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="oh" style="width:110px;">
+										<li>
+											<ul class="oh fl">
+												<li>
+													<img style="padding-left: 12px;" src="images/img7-sticky.png"></img>
+												</li>
+												<li>
+													Large icons
+												</li>
+											</ul>
+										</li>
+										<li>
+											<ul class="oh fl">
+												<li>
+													<img style="padding-left: 12px;" src="images/img8-sticky.png"></img>
+												</li>
+												<li>
+													List
+												</li>
+											</ul>
+										</li>
+										<li>
+											<ul class="oh fl">
+												<li>
+													<img style="padding-left: 12px;" src="images/img9-sticky.png"></img>
+												</li>
+												<li>
+													Content
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="oh" style="width:130px;">
+										<li id="mediumIcons">
+											<ul class="oh fl">
+												<li>
+													<img style="padding-left: 12px;" src="images/img10-sticky.png"></img>
+												</li>
+												<li>
+													Medium icons
+												</li>
+											</ul>
+										</li>
+										<li id="details">
+											<ul class="oh fl">
+												<li>
+													<img style="padding-left: 12px;" src="images/img11-sticky.png"></img>
+												</li>
+												<li>
+													Details
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li style="background-color:#DCDCDC;border:1px solid #A9A9A9;">
+									<ul class="oh" style="width:16px;">
+										<li>
+											<img style="padding-left:2px;" src="images/img12-sticky.png"></img>
+										</li>
+										<li>
+											<img style="padding-left:2px;" src="images/img13-sticky.png"></img>
+										</li>
+										<li>
+											<img style="padding-left:2px;" src="images/img14-sticky.png"></img>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<span style="float:left;overflow: hidden;width: 100%;text-align: center;">
+								<font color=#C0C0C0>Layout</font>
+							</span>
+						</li>
+						<li style="padding-top: 7px;padding-left:2px;padding-right:2px; border-right:1px solid #C0C0C0;">
+							<ul class="oh">
+								<li>
+									<ul class="oh" style="width:65px;">
+										<li style="padding-left:7px;">
+											<img src="images/img15-sticky.png"></img>
+										</li>
+										<li style="padding-left:9px;">
+											Sort
+										</li>
+										<li style="padding-left:7px;">
+											<ul class="of fl" style="width:50px;">
+												<li style="padding-left:4px;">
+													by
+												</li>
+												<li>
+													<img src="images/img24-sticky.png"></img>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="oh" style="width:170px;">
+										<li>
+											<ul class="oh" style="width:130px;">
+												<li>
+													<img style="padding-left:2px;" src="images/img17-sticky.png"></img>
+												</li>
+												<li>
+													<ul class="oh fl" style="width:90px;">
+														<li>
+															Group By
+														</li>
+														<li>
+														<img style="padding-left:2px;" src="images/img24-sticky.png"></img>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<ul class="oh" style="width:150px;">
+												<li>
+													<img style="padding-left:2px;" src="images/img18-sticky.png"></img>
+												</li>
+												<li>
+													<ul class="oh fl" style="width:120px;">
+														<li>
+															Add Columns
+														</li>
+														<li>
+														<img style="padding-left:2px;" src="images/img24-sticky.png"></img>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<ul class="oh" style="width:150px;">
+												<li>
+													<img style="padding-left:2px;" src="images/img19-sticky.png"></img>
+												</li>
+												<li>
+													Size all columns to fit
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<span style="float:left;overflow: hidden;width: 100%;text-align: center;">
+								<font color=#C0C0C0>Current View</font>
+							</span>
+						</li>
+						<li style="padding-top: 7px;padding-left:2px;padding-right:2px; border-right:1px solid #C0C0C0;">
+							<ul class="oh">
+								
+								<li>
+									<ul class="oh" style="width:170px;">
+										<li>
+											<ul class="oh" style="width:130px;">
+												<li>
+													<img style="padding-left:2px;" src="images/img20-sticky.png"></img>
+												</li>
+												<li>
+													Item Check boxes
+												</li>
+											</ul>
+										</li>
+										<li>
+											<ul class="oh" style="width:170px;">
+												<li>
+													<img style="padding-left:2px;" src="images/img20-sticky.png"></img>
+												</li>
+												<li>
+													File name extensions
+												</li>
+											</ul>
+										</li>
+										<li>
+											<ul class="oh" style="width:130px;">
+												<li>
+													<img style="padding-left:2px;" src="images/img21-sticky.png"></img>
+												</li>
+												<li>
+													Hidden Items
+												</li>
+											</ul>
+										</li>
+										
+									</ul>
+								</li>
+								<li>
+									<ul class="oh" style="width:90px;">
+										<li>
+											<img style="padding-left:22px;" src="images/img22-sticky.png"></img>
+										</li>
+										<li>
+											<ul class="oh" >
+												<li>
+													Hide Selected
+												</li>
+												<li style="padding-left:22px;">
+													Items
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<span style="float:left;overflow: hidden;width: 100%;text-align: center;">
+								<font color=#C0C0C0>Show/Hide</font>
+							</span>
+						</li>
+						<li style="padding-top: 7px;padding-left:2px;padding-right:2px; border-right:1px solid #C0C0C0;">
+							<ul class="oh">
+								<li>
+									<ul class="oh" style="width:60px;">
+										<li>
+											<img style="padding-left:17px;" src="images/img23-sticky.png"></img>
+										</li>
+										<li style="padding-left:12px;">
+											Options
+										</li>
+										<li style="padding-left:23px;">
+											<img  src="images/img24-sticky.png"></img>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<span style="float:left;overflow: hidden;width: 100%;text-align: center;">
+								<font color=#C0C0C0>&nbsp;</font>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="searchSection">
+				<img class="arrows" src="images/arrows.png">
+				<ul id="taskbar" class="oh">
+					<li><img src="images/folder-taskbar.png"></li>
+					<li><img src="images/arrow-taskbar.png"></li>
+					<li>This Pic</li>
+					<li><img src="images/arrow-taskbar.png"></li>
+					<li>Local Disk (C:)</li>
+					<li><img src="images/arrow-taskbar.png"></li>
+					<li>Windows</li>
+					<li><img src="images/arrow-taskbar.png"></li>
+					<div class="fr">
+					<li><img src="images/down-arrow-taskbar.png"></li>
+					<li><img src="images/loader-taskbar.png"></li>
+					</div>
+				</ul>
+				<div class="fr searchBar">
+					<div class="tokenize sortable"><ul class="frmCtrl" tabindex="0"><li class="token-search" style="width: 20px;"><input class="suggester" /></li></ul></div>
+					<img src="images/search-taskbar.png">
+				</div>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<ul class="wrapper" style="margin-top:12px;">
+			<li class="non-expand">
+				<ul id="leftPanelMenu" class="oh">
+					<li>
+						<ul class="first oh">
+							<li><img src="images/arrow-leftPanel.png"></li>
+							<li><img src="images/star-leftPanel.png"></li>
+							<li>Favourites</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="second">
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/blue-scr-leftPanel.png">
+									</li>
+									<li>Desktop</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/file-download-leftPanel.png">
+									</li>
+									<li>Downloads</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/img1-leftPanel.png">
+									</li>
+									<li>Recent Places</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/img2-leftPanel.png">
+									</li>
+									<li>SkyDrive</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="first oh">
+							<li><img src="images/arrow-leftPanel.png"></li>
+							<li><img src="images/img3-leftPanel.png"></li>
+							<li>This PC</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="second">
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/img4-leftPanel.png">
+									</li>
+									<li>
+										<img src="images/img5-leftPanel.png">
+									</li>
+									<li>Desktop</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/img4-leftPanel.png">
+									</li>
+									<li>
+										<img src="images/img6-leftPanel.png">
+									</li>
+									<li>Documents</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/img4-leftPanel.png">
+									</li>
+									<li>
+										<img src="images/file-download-leftPanel.png">
+									</li>
+									<li>Downloads</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/img4-leftPanel.png">
+									</li>
+									<li>
+										<img src="images/file-music-leftPanel.png">
+									</li>
+									<li>Music</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/arrow-leftPanel.png">
+									</li>
+									<li>
+										<img src="images/file-pictures-leftPanel.png">
+									</li>
+									<li>Pictures</li>
+								</ul>
+							</li>
+							<li style="margin-left: 35px;">
+								<ul class="oh">
+									
+									<li>
+										<img src="images/folder-icon-leftPanel.png">
+									</li>
+									<li>Screenshots</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="oh">
+									<li>
+										<img src="images/img4-leftPanel.png">
+									</li>
+									<li>
+										<img src="images/file-video-leftPanel.png">
+									</li>
+									<li>Videos</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul id="leftPanelMenu" class="oh">
+							<li>
+								<a>
+									<ul class="first oh">
+										<li><img src="images/arrow-leftPanel.png"></li>
+										<li><img src="images/windC-leftPanel.png"></li>
+										<li>Local Disk (C:)</li>
+									</ul>
+								</a>
+							</li>
+							<li class="tree expand-collapse">
+								<ul class="second">
+									
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="rightFrame" style="overflow-y: scroll;overflow-x:hidden;height: 550px;width: 1098px;">
+				<div id="listView" class="hide">
+				</div>
+				<div id="gridView" class="show">
+				</div>
+				
+			</li>
+		</ul>
+		<!-- <footer>
+		Terms of service | privacy Ploicy | Price and Propetry Policy <br/>@Copyright
+		</footer> -->
+	</body>
+</html>
